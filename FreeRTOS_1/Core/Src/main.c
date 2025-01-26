@@ -41,12 +41,19 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
-/* Definitions for defaultTask */
-osThreadId_t defaultTaskHandle;
-const osThreadAttr_t defaultTask_attributes = {
-  .name = "defaultTask",
+/* Definitions for blink01 */
+osThreadId_t blink01Handle;
+const osThreadAttr_t blink01_attributes = {
+  .name = "blink01",
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityNormal,
+};
+/* Definitions for blink02 */
+osThreadId_t blink02Handle;
+const osThreadAttr_t blink02_attributes = {
+  .name = "blink02",
+  .stack_size = 128 * 4,
+  .priority = (osPriority_t) osPriorityBelowNormal,
 };
 /* USER CODE BEGIN PV */
 
@@ -55,7 +62,8 @@ const osThreadAttr_t defaultTask_attributes = {
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-void StartDefaultTask(void *argument);
+void StartBlink01(void *argument);
+void StartBlink02(void *argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -118,8 +126,11 @@ int main(void)
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
-  /* creation of defaultTask */
-  defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
+  /* creation of blink01 */
+  blink01Handle = osThreadNew(StartBlink01, NULL, &blink01_attributes);
+
+  /* creation of blink02 */
+  blink02Handle = osThreadNew(StartBlink02, NULL, &blink02_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -228,22 +239,46 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE END 4 */
 
-/* USER CODE BEGIN Header_StartDefaultTask */
+/* USER CODE BEGIN Header_StartBlink01 */
 /**
-  * @brief  Function implementing the defaultTask thread.
+  * @brief  Function implementing the blink01 thread.
   * @param  argument: Not used
   * @retval None
   */
-/* USER CODE END Header_StartDefaultTask */
-void StartDefaultTask(void *argument)
+/* USER CODE END Header_StartBlink01 */
+void StartBlink01(void *argument)
 {
   /* USER CODE BEGIN 5 */
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+	HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+    osDelay(500);
   }
+  // In case accidentally exit from task loop
+  osThreadTerminate(NULL);
   /* USER CODE END 5 */
+}
+
+/* USER CODE BEGIN Header_StartBlink02 */
+/**
+* @brief Function implementing the blink02 thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_StartBlink02 */
+void StartBlink02(void *argument)
+{
+  /* USER CODE BEGIN StartBlink02 */
+  /* Infinite loop */
+  for(;;)
+  {
+	HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+    osDelay(600);
+  }
+  // In case accidentally exit from task loop
+   osThreadTerminate(NULL);
+  /* USER CODE END StartBlink02 */
 }
 
 /**
