@@ -18,6 +18,9 @@ Implemented this repository to improve practical skills related to CMSIS_OSv2-ba
 
 ### In the below demo you can see that the 2 tasks overlap periodically. But as we know the higher priority task which is blink01 will be executed in that scenario.
 
+![video](https://github.com/user-attachments/assets/b9734ef3-0030-4314-83ca-a9a004a5bd35)
+
+
 
 
 
