@@ -865,3 +865,112 @@
 2025-01-27 00:50:54,552 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 3661mS.
 2025-01-27 00:50:54,553 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
 2025-01-27 00:50:54,561 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-01-27 01:02:57,615 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-01-27 01:03:18,405 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-01-27 01:03:18,405 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-01-27 01:03:18,405 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-01-27 01:03:22,859 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-01-27 01:03:22,859 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-01-27 01:03:56,211 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-01-27 01:03:56,211 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-01-27 01:03:56,211 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-01-27 01:04:00,207 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-01-27 01:04:00,207 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-01-27 01:04:36,031 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-01-27 01:04:36,031 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-01-27 01:04:36,032 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-01-27 01:04:36,032 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-01-27 01:04:36,032 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-01-27 01:04:36,032 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-01-27 01:04:48,122 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 771832632 Bytes (1073741824)
+2025-01-27 01:04:48,246 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 791233336 Bytes (1073741824)
+2025-01-27 01:04:48,850 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 829367592 Bytes (1073741824)
+2025-01-27 01:05:25,710 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 828576816 Bytes (1073741824)
+2025-01-27 01:05:25,830 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 846891760 Bytes (1073741824)
+2025-01-27 01:05:26,427 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 736148592 Bytes (1073741824)
+2025-01-27 01:05:27,002 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-01-27 01:05:27,002 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: FREERTOS
+2025-01-27 01:05:27,003 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-01-27 01:05:27,003 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-01-27 01:05:27,003 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-01-27 01:05:27,004 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-01-27 01:05:27,216 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\license.tmp_save
+2025-01-27 01:05:27,374 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\license.tmp
+2025-01-27 01:05:27,399 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\gpio.tmp_save
+2025-01-27 01:05:27,547 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\gpio.tmp
+2025-01-27 01:05:27,709 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-01-27 01:05:27,719 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_inc.tmp_save
+2025-01-27 01:05:27,874 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_inc.tmp
+2025-01-27 01:05:27,878 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_kernelInit.tmp_save
+2025-01-27 01:05:27,967 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_kernelInit.tmp
+2025-01-27 01:05:27,974 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-01-27 01:05:28,050 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_kernelStart.tmp
+2025-01-27 01:05:28,058 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_typedefs.tmp_save
+2025-01-27 01:05:28,124 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_typedefs.tmp
+2025-01-27 01:05:28,128 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_vars.tmp_save
+2025-01-27 01:05:28,228 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_vars.tmp
+2025-01-27 01:05:28,231 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_pfp.tmp_save
+2025-01-27 01:05:28,325 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_pfp.tmp
+2025-01-27 01:05:28,329 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-01-27 01:05:28,422 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_obj_creat.tmp
+2025-01-27 01:05:28,426 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_default_thread.tmp_save
+2025-01-27 01:05:28,505 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_default_thread.tmp
+2025-01-27 01:05:28,510 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_threads.tmp_save
+2025-01-27 01:05:28,584 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_threads.tmp
+2025-01-27 01:05:28,602 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-01-27 01:05:28,616 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_inc.tmp_save
+2025-01-27 01:05:28,716 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_inc.tmp
+2025-01-27 01:05:28,726 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_kernelInit.tmp_save
+2025-01-27 01:05:28,782 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_kernelInit.tmp
+2025-01-27 01:05:28,790 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_kernelStart.tmp_save
+2025-01-27 01:05:28,849 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_kernelStart.tmp
+2025-01-27 01:05:28,857 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_typedefs.tmp_save
+2025-01-27 01:05:28,950 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_typedefs.tmp
+2025-01-27 01:05:28,967 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_vars.tmp_save
+2025-01-27 01:05:29,044 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_vars.tmp
+2025-01-27 01:05:29,049 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_pfp.tmp_save
+2025-01-27 01:05:29,137 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_pfp.tmp
+2025-01-27 01:05:29,159 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_obj_creat.tmp_save
+2025-01-27 01:05:29,235 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_obj_creat.tmp
+2025-01-27 01:05:29,245 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_default_thread.tmp_save
+2025-01-27 01:05:29,317 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_default_thread.tmp
+2025-01-27 01:05:29,327 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_threads.tmp_save
+2025-01-27 01:05:29,406 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\rtos_threads.tmp
+2025-01-27 01:05:29,431 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Inc\FreeRTOSConfig.h_save
+2025-01-27 01:05:29,596 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Inc\FreeRTOSConfig.h
+2025-01-27 01:05:29,617 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Src\freertos.c_save
+2025-01-27 01:05:29,686 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Src\freertos.c
+2025-01-27 01:05:29,713 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Src\stm32f4xx_it.c_save
+2025-01-27 01:05:29,907 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Src\stm32f4xx_it.c
+2025-01-27 01:05:29,913 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Inc\stm32f4xx_it.h_save
+2025-01-27 01:05:30,064 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Inc\stm32f4xx_it.h
+2025-01-27 01:05:30,109 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Src\stm32f4xx_hal_msp.c_save
+2025-01-27 01:05:30,258 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Src\stm32f4xx_hal_msp.c
+2025-01-27 01:05:30,261 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\system.tmp_save
+2025-01-27 01:05:30,348 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\MXTmpFiles\system.tmp
+2025-01-27 01:05:30,379 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2025-01-27 01:05:30,491 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Src\stm32f4xx_hal_timebase_tim.c
+2025-01-27 01:05:30,527 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-01-27 01:05:30,696 [INFO] CodeEngine:335 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Inc\stm32f4xx_hal_conf.h
+2025-01-27 01:05:30,787 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Inc\main.h_save
+2025-01-27 01:05:31,007 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Inc\main.h
+2025-01-27 01:05:31,061 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Src\main.c_save
+2025-01-27 01:05:31,282 [INFO] CodeEngine:279 - Generated code: C:\Users\ACER\Documents\GitHub\FreeRTOS-on-STM32\FreeRTOS_1\Core\Src\main.c
+2025-01-27 01:05:32,225 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 355mS.
+2025-01-27 01:05:32,229 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-01-27 01:05:32,718 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-01-27 01:05:36,231 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 4002mS.
+2025-01-27 01:05:36,237 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 4mS.
+2025-01-27 01:05:36,248 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-01-27 01:12:33,549 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-01-27 01:12:36,426 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-01-27 01:12:36,427 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-01-27 01:12:36,427 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-01-27 01:12:36,427 [INFO] TasksAndQueuesTab:757 - Dynamic
+2025-01-27 01:12:36,427 [WARN] TasksAndQueuesTab:763 - 128 128
+2025-01-27 01:12:36,427 [WARN] TasksAndQueuesTab:775 - max value is: 3840.0
+2025-01-27 01:12:38,166 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-01-27 01:12:38,166 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-01-27 01:12:45,735 [INFO] EditThreadDialog:704 - RAM SIZE (in KB): 128
+2025-01-27 01:12:45,735 [INFO] EditThreadDialog:706 - RAM SIZE (in words): 32768
+2025-01-27 01:46:11,749 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
