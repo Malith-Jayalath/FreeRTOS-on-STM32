@@ -1046,3 +1046,6 @@ java.lang.Exception: Resource '/FreeRTOS_1' does not exist.
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-01-28 18:35:34.217
 !MESSAGE Indexed 'Semaphores' (19 sources, 81 headers) in 1.92 sec: 4,302 declarations; 18,132 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-28 21:06:47.552
+!MESSAGE Indexed 'EventFlags' (19 sources, 81 headers) in 1.97 sec: 4,302 declarations; 18,132 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
