@@ -48,15 +48,15 @@ osThreadId_t Task1Handle;
 const osThreadAttr_t Task1_attributes = {
   .name = "Task1",
   .stack_size = 256 * 4,
-  .priority = (osPriority_t) osPriorityNormal,
+  .priority = (osPriority_t) osPriorityNormal2,
 };
 /* Definitions for Task2 */
 osThreadId_t Task2Handle;
-//const osThreadAttr_t Task2_attributes = {
-//  .name = "Task2",
-//  .stack_size = 256 * 4,
-//  .priority = (osPriority_t) osPriorityNormal,
-//};
+const osThreadAttr_t Task2_attributes = {
+  .name = "Task2",
+  .stack_size = 256 * 4,
+  .priority = (osPriority_t) osPriorityNormal,
+};
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -142,7 +142,7 @@ int main(void)
   Task1Handle = osThreadNew(StartTask1, NULL, &Task1_attributes);
 
   /* creation of Task2 */
-//  Task2Handle = osThreadNew(StartTask2, NULL, &Task2_attributes);
+  Task2Handle = osThreadNew(StartTask2, NULL, &Task2_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -272,24 +272,14 @@ static void MX_GPIO_Init(void)
 void StartTask1(void *argument)
 {
   /* USER CODE BEGIN 5 */
-//	osPriority_t priority;
-  const osThreadAttr_t Task2_attributes = {
-	 .name = "Task2",
-	 .stack_size = 256 * 4,
-	 .priority = (osPriority_t) osPriorityNormal,
-  };
-
-
+	osPriority_t priority;
   /* Infinite loop */
   for(;;)
   {
-//	priority = osThreadGetPriority(Task2Handle);
+	priority = osThreadGetPriority(Task1Handle);
 	printf("1\r\n");
-	Task2Handle = osThreadNew(StartTask2, NULL, &Task2_attributes);
-	osDelay(1000);
-//	osThreadYield();
-//	osThreadSetPriority(Task2Handle, priority+1);
-//	HAL_Delay(1000);
+	osThreadSetPriority(Task1Handle, priority+1);
+	HAL_Delay(1000);
   }
   /* USER CODE END 5 */
 }
@@ -304,14 +294,13 @@ void StartTask1(void *argument)
 void StartTask2(void *argument)
 {
   /* USER CODE BEGIN StartTask2 */
-//	osPriority_t priority;
+	osPriority_t priority;
   /* Infinite loop */
   for(;;)
   {
-//	priority = osThreadGetPriority(Task2Handle);
+	priority = osThreadGetPriority(Task2Handle);
 	printf("2\r\n");
-	osThreadTerminate(Task2Handle);
-//	osThreadSetPriority(Task2Handle, priority-2);
+	osThreadSetPriority(Task2Handle, priority-2);
   }
   /* USER CODE END StartTask2 */
 }

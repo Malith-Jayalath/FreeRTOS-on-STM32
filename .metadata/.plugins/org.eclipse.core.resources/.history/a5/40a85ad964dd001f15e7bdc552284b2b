@@ -273,21 +273,15 @@ void StartTask1(void *argument)
 {
   /* USER CODE BEGIN 5 */
 //	osPriority_t priority;
-  const osThreadAttr_t Task2_attributes = {
-	 .name = "Task2",
-	 .stack_size = 256 * 4,
-	 .priority = (osPriority_t) osPriorityNormal,
-  };
 
+  Task2Handle = osThreadNew(StartTask2, NULL, &Task2_attributes);
 
   /* Infinite loop */
   for(;;)
   {
 //	priority = osThreadGetPriority(Task2Handle);
 	printf("1\r\n");
-	Task2Handle = osThreadNew(StartTask2, NULL, &Task2_attributes);
-	osDelay(1000);
-//	osThreadYield();
+	osThreadYield();
 //	osThreadSetPriority(Task2Handle, priority+1);
 //	HAL_Delay(1000);
   }
@@ -310,7 +304,6 @@ void StartTask2(void *argument)
   {
 //	priority = osThreadGetPriority(Task2Handle);
 	printf("2\r\n");
-	osThreadTerminate(Task2Handle);
 //	osThreadSetPriority(Task2Handle, priority-2);
   }
   /* USER CODE END StartTask2 */

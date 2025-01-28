@@ -310,7 +310,6 @@ void StartTask2(void *argument)
   {
 //	priority = osThreadGetPriority(Task2Handle);
 	printf("2\r\n");
-	osThreadTerminate(Task2Handle);
 //	osThreadSetPriority(Task2Handle, priority-2);
   }
   /* USER CODE END StartTask2 */
