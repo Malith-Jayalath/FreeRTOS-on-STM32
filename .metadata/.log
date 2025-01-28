@@ -1049,3 +1049,9 @@ java.lang.Exception: Resource '/FreeRTOS_1' does not exist.
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-01-28 21:06:47.552
 !MESSAGE Indexed 'EventFlags' (19 sources, 81 headers) in 1.97 sec: 4,302 declarations; 18,132 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-28 23:12:55.197
+!MESSAGE Indexed 'Mutexes' (19 sources, 81 headers) in 2.13 sec: 4,302 declarations; 18,132 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-01-28 23:40:30.168
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.internal.ui.actions.DsfTerminateCommand$3$1@147a4e1b): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
